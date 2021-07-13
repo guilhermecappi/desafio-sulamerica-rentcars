@@ -13,6 +13,7 @@ $ git clone https://github.com/guilhermecappi/desafio-sulamerica-rentcars.git
 ```
 
 Importe o banco de dados rentcarsdb, localizado na pasta **"mongo-db"**, como mongodump folder. <br />
+É recomendado fazer a instalação do ![Studio 3T](https://studio3t.com/download/) para importar o arquivo de forma mais prática.
 <br />
 Execute a aplicação SpringBoot, localizada na pasta **"backend"**, em servidor local (port:8080). <br />
 <br />
