@@ -176,7 +176,7 @@ export default function Rent(){
                 toast.error(response.message);
                 return;
             } else{
-                api.post('/bookings', rent);
+                api.post('/rents', rent);
                 setRents([...rents, rent]);
                 toast.success(response.message);
             }
